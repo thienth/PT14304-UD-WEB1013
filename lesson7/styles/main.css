@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
+.clearfix:before, .clearfix:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.features{
+	float: right;
+	width: 25%;
+}
+.features > ul{
+	list-style-type: none;
+}
+.features > ul > li{
+	text-align: center;
+	float: right;
+	width: 49%;
+}
+.features > ul > li:first-child{
+	border-left: 1px dashed #dedede;
+}
+.features > ul > li > i{
+	font-size: 25px;
+}
+.nav-bg{
+	background: #2CA9E1;
+	min-height: 100px;
+}
+nav.container{
+	background: gray;
+	min-height: 100px;
+}
